@@ -30,7 +30,7 @@ impl Node {
 
 fn main() {
     let mut root = Node::new(10);
-    root.insert(5);
+    root.insert(9);
     root.insert(15);
     root.insert(3);
     root.insert(70);
