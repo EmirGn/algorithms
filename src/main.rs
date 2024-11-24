@@ -7,7 +7,7 @@ fn recursion(perm_number: i32) -> i32 {
 }
 
 fn main() {
-    let perm_number: i32 = 3;
+    let perm_number: i32 = 5;
     let example = recursion(perm_number);
 
     println!("the answer of this permutation: {:?}", example);
