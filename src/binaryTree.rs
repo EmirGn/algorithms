@@ -4,6 +4,10 @@ struct Node {
     right: Option<Box<Node>>,
 }
 
+fn asuman() {
+    println!("asumang götten veriyor")
+}
+
 impl Node {
   fn new(value: i32) -> Node {
       Node {
@@ -38,4 +42,5 @@ fn main() {
     root.insert(18);
 
     println!("Binary tree created.");
+    asuman()
 }

@@ -6,9 +6,14 @@ fn recursion(perm_number: i32) -> i32 {
     }
 }
 
+fn asuman() {
+    println!("asuman teyzeye selam")
+}
+
 fn main() {
     let perm_number: i32 = 5;
     let example = recursion(perm_number);
 
     println!("the answer of this permutation: {:?}", example);
+    asuman();
 }
